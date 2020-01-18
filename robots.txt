@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://sci-kid.github.io/sitemap.xml

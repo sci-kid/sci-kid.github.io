@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,400,700');
 
 html {
-  font-size:100%; // normally 16px
+  font-size:100%;
 }
 
 .container {
@@ -28,7 +28,7 @@ h3 {
   font-size: 1.35rem;
   line-height: 2rem;
   text-transform: uppercase;
-  letter-spacing: 1px; // Smaller headers look better with spacing
+  letter-spacing: 1px; 
 }
 
 .container {
@@ -67,20 +67,19 @@ h3 {
   border-radius: .25rem;
   transition: all .2s ease-in-out;
   text-decoration: none;
-  
-  &.btn-primary {
-    color: #fff;
-    background-color: #000;
-    border-color: #666;
-
-    &:hover {
-      color: #fff;
-      background-color: #333;
-      border-color: #666;
-      cursor: pointer;
-    }  
-  }  
 }
+
+.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border-color: #666;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #666;
+}  
 
 .h_1_keywords {
   text-align: center;
@@ -90,17 +89,12 @@ h3 {
   line-height: 1.2rem;
 }
 
-// .btn-primary:hover {
-//   color: #fff;
-//   background-color: #333;
-//   border-color: #666;
-// }
+.btn-primary:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #666;
+ }
 
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default
-
-// Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
   .container {
     line-height: 0.005;
@@ -109,6 +103,7 @@ h3 {
     transform: scale(0.8);
   }
 }
+
 @media (max-width: 450px) {
   .container {
     line-height: 0.005;
@@ -122,24 +117,21 @@ h3 {
   }
 }
 
-// Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
   .container {
     line-height: 0.005;
   }
 }
 
-// Large devices (desktops, 992px and up)
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
   .item {
-    //width:80%;
+    width:80%;
   } 
 }
 
-// Extra large devices (large desktops, 1200px and up)
 @media (max-width: 1200px) {
   .item {
-    //width:60%;
+    width:60%;
   }
 }
 @use postcss-cssnext;
@@ -303,9 +295,9 @@ p {
   transform: scale(1.5);
 }
 .author_rights {
-  //width: calc(100% - 40px);
-  //padding: 20px;
-  //width: 1200px;
+  width: calc(100% - 40px);
+  padding: 20px;
+  width: 1200px;
   width: calc(100% - 40px);
   margin-left: auto;
   margin-right: auto;
