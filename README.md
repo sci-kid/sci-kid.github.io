@@ -1,2 +1,1 @@
-# sci-kid.github.io
-Example of my website, written by myself and for myself. I'm retraining on one's own now for being a Python software developer. I guess my knowledge isn't enough for landing the job of a developer. So, unfortunately, temporarily I have to make money as a private electrician. So I wrote my website to advertise my electricity services. The website was written with help only HTML and CSS, was posted online with the help of GitHub pages.
+
